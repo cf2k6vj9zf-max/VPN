@@ -161,8 +161,8 @@ Useful paths on the server:
 
 ```bash
 systemctl status xray --no-pager
-systemctl status wg-quick@wg0 --no-pager
 systemctl status vpn-cert-renew.timer --no-pager
+systemctl status wg-quick@wg0 --no-pager   # only if ENABLE_WIREGUARD=true
 ss -tulpn | rg ':(80|443|8388|8443|51820)\b'
 ```
 

@@ -61,6 +61,7 @@ install_packages() {
   local packages=(
     ca-certificates
     curl
+    iptables
     jq
     libqrencode4
     openssl
