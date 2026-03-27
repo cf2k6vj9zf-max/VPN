@@ -67,6 +67,7 @@ install_packages() {
     python3
     python3-venv
     qrencode
+    ripgrep
     unzip
     uuid-runtime
   )
